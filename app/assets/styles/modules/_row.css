@@ -6,6 +6,7 @@
 		margin-right: -65px;	
 	}
 	
+	
 	&--gutters > div {
 		padding-right: 65px;
 /*
@@ -13,6 +14,15 @@
 		box-sizing makes calculating the entire width of the row to 100% 
 		we can move this to the global css to apply to all the elements
 */
+	}
+	
+	&--gutters-large {
+		margin-right: -100px;
+		
+	}
+	
+	&--gutters-large > div {
+		padding-right: 100px;	
 	}
 	
 	&__bottom-margin-until-medium {
@@ -41,6 +51,11 @@
 		
 		&__medium-8-smaller {
 			width: 63%;
+		}
+		
+		&__medium-6 {
+			float: left;
+			width: 50%;
 		}
 	}
 
